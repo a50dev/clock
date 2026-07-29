@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace A50\Clock;
 
+use A50\Container\ServiceProvider;
 use Psr\Clock\ClockInterface;
 use Psr\Container\ContainerInterface;
-use A50\Container\ServiceProvider;
 
 final class ClockProvider implements ServiceProvider
 {
